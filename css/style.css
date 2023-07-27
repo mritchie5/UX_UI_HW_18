@@ -60,13 +60,13 @@ li {
 }
 
 .leftColumn {
-    flex: 1;
+    flex: 2;
     padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 400px;
-    margin-left: 350px;
+    margin-right: 300px;
+    margin-left: 150px;
 }
 
 .rightColumn {
@@ -145,4 +145,9 @@ li {
     margin-top: -5px;
     text-align: right;
     padding-left: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+.grid-container {
+    grid-template-columns: 1fr;
 }
