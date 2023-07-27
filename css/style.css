@@ -1,0 +1,148 @@
+/* Logo Styles */
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* Nav Styles */
+.inline-block {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    margin-left: auto;
+    width: 100%;
+    text-align: right;
+    padding-right: 4%;
+}
+
+li {
+    display: inline;
+    font-size: 22px;
+    padding: 1%;
+}
+
+/* Hero Image */
+.aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heroimage {
+    height: auto;
+    width: 250px;
+}
+
+/*Text Content Layout */
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 1;
+    grid-gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+/* Style for the columns */
+.leftColumn, .rightColumn {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.leftColumn {
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 400px;
+    margin-left: 350px;
+}
+
+.rightColumn {
+    flex: 2;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 250px;
+    margin-left: -50px;
+}
+
+/* Style for the button */
+.buttonLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #297D13;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+    background-color: #297D13;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+    background-color: #297D13;
+    transform: scale(0.95);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Styles for the social icons */
+.socials {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    outline: 1px red;
+
+    .cfooter {
+        display: inline-block;
+        padding: 36px;
+        width: 40%;
+        padding: auto;
+        text-align: center;
+    }
+
+}
+
+.udrtxt {
+    display: inline-block;
+    margin-top: -5px;
+    text-align: right;
+    padding-left: 55px;
+}
